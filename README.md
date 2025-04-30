@@ -1,6 +1,5 @@
-# Example Home Assistant add-on repository
+# Streammaster Home Assistant add-on repository
 
-This repository can be used as a "blueprint" for add-on development to help you get started.
 
 Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
@@ -10,7 +9,7 @@ Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 This repository contains the following add-ons
 
-### [Example add-on](./example)
+### [Streammaster Home Assistant add-on](./streammaster)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
@@ -18,7 +17,7 @@ This repository contains the following add-ons
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-_Example add-on to use as a blueprint for new add-ons._
+_Custom addon to run StreamMaster._
 
 <!--
 
