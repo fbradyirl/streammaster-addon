@@ -1,9 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Example add-on
-version: "1.2.0"
-slug: example
-description: Example add-on
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+name: StreamMaster add-on
+version: "1.0"
+slug: streammaster
+description: "Custom addon to run StreamMaster"
+url: "https://github.com/fbradyirl/streammaster-addon/tree/main/streammaster"
 arch:
   - armhf
   - armv7
