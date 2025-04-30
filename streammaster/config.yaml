@@ -5,7 +5,6 @@ slug: streammaster
 description: "Custom addon to run StreamMaster"
 url: "https://github.com/fbradyirl/streammaster-addon/tree/main/streammaster"
 arch:
-  - armhf
   - aarch64
   - amd64
 init: false
