@@ -17,4 +17,4 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-# image: "ghcr.io/fbradyirl/{arch}-streammaster-addon"
+image: "ghcr.io/fbradyirl/{arch}-streammaster-addon"
