@@ -4,6 +4,9 @@ _Add-on wrapper to [StreamMaster][streamMaster-repo]_
 
 Note: you will need to install and run [postgres][postgres-addon] addon before running this addon.
 
+
+Then, after install of this addon, navigate to http://homeassistant.local:7095/editor/streams locally to set it all up. Follow the streammaster docs for this.
+
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 

@@ -1,10 +1,9 @@
-# Home Assistant Add-on: Example add-on
+# Streammaster Add-on
 
-## How to use
+## How to install
 
-This add-on really does nothing. It is just an example.
+First, you will need to install and run [postgres][postgres-addon] addon before running this addon. Leave everything as default when starting it.
 
-When started it will print the configured message or "Hello world" in the log.
+Then, after install of this addon, navigate to http://homeassistant.local:7095/editor/streams locally to set it all up. Follow the streammaster docs for this.
 
-It will also print "All done!" in `/share/example_addon_output.txt` to show
-simple example of the usage of `map` in addon config.
+[postgres-addon]: https://github.com/alexbelgium/hassio-addons/tree/master/postgres
