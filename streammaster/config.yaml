@@ -1,16 +1,16 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: StreamMaster add-on
-version: "1.0.19"
+version: "1.0.20"
 slug: streammaster
 description: "Custom addon to run StreamMaster"
 url: "https://github.com/fbradyirl/streammaster-addon/tree/main/streammaster"
-ingress: true
-ingress_port: 7095
+# ingress: true
+# ingress_port: 7095
 # ingress_stream: false
-ingress_entry: /editor/streams
+# ingress_entry: /editor/streams
+# panel_icon: mdi:television-classic
+# panel_title: StreamMaster
 host_network: true
-panel_icon: mdi:television-classic
-panel_title: StreamMaster
 arch:
   - aarch64
   - amd64

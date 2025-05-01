@@ -9,8 +9,7 @@ ENV POSTGRES_USER="postgres"
 ENV POSTGRES_PASSWORD="homeassistant"
 ENV POSTGRES_IS_LOCAL=0
 ENV STREAMMASTER_BASEHOSTURL=http://0.0.0.0:7095
-ENV ASPNETCORE_URLS=http://0.0.0.0:7095/api/ingress/streammaster/
-ENV PATH_BASE=/api/ingress/streammaster/
+
 
 # Set labels
 LABEL maintainer="fbradyirl@github.com"
