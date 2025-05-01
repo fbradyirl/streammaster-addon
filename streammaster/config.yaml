@@ -10,6 +10,7 @@ arch:
 init: false
 map:
   - share:rw
+  - config:rw
 options:
   message: "Hello world..."
 schema:
