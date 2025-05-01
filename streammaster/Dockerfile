@@ -8,7 +8,7 @@ ENV POSTGRES_DB="postgres"
 ENV POSTGRES_USER="postgres"
 ENV POSTGRES_PASSWORD="homeassistant"
 ENV POSTGRES_IS_LOCAL=0
-ENV ASPNETCORE_URLS=http://0.0.0.0:7095
+ENV STREAMMASTER_BASEHOSTURL=http://0.0.0.0:7095
 
 # Set labels
 LABEL maintainer="fbradyirl@github.com"
