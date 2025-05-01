@@ -13,11 +13,10 @@ This repository contains the following add-ons
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
-![Supports armhf Architecture][armhf-shield]
-![Supports armv7 Architecture][armv7-shield]
-![Supports i386 Architecture][i386-shield]
 
-_Custom addon to run StreamMaster._
+_Custom addon to run  [StreamMaster][streamMaster-repo]._
+
+[streamMaster-repo]: https://github.com/carlreid/StreamMaster
 
 <!--
 
