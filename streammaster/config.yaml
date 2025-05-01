@@ -12,9 +12,21 @@ arch:
   - amd64
 init: false
 map:
+  - type: addons
+    read_only: false
+  - type: all_addon_configs
+    read_only: false
+  - type: backup
+    read_only: false
   - type: addon_config
     read_only: False
     path: /config
+  - type: media
+    read_only: false
+  - type: share
+    read_only: false
+  - type: ssl
+    read_only: false
 options:
   set_perms: false
   db_dir: "/config/DB"
