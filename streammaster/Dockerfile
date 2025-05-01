@@ -2,6 +2,9 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
+ENV SM_DB_DIR="/config/DB"
+ENV SM_SET_PERMS="0"
+
 # Set labels
 LABEL maintainer="fbradyirl@github.com"
 
