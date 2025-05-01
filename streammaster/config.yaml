@@ -1,11 +1,12 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: StreamMaster add-on
-version: "1.0.3"
+version: "1.0.4"
 slug: streammaster
 description: "Custom addon to run StreamMaster"
 url: "https://github.com/fbradyirl/streammaster-addon/tree/main/streammaster"
 ingres: true
 ingress_port: 7095
+ingress_stream: true
 host_network: true
 arch:
   - aarch64
