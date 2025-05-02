@@ -17,6 +17,13 @@ ENV PGADMIN_SETUP_PASSWORD=disabled
 # This sets a hard heap limit on the .NET GC to ~1GB.
 ENV DOTNET_GCHeapHardLimit=1048576000
 
+USER root
+
+RUN apt-get update && \
+    apt-get install -y procps curl htop less && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
 # Set labels
 LABEL maintainer="fbradyirl@github.com"
 
