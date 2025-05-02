@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: StreamMaster add-on
-version: "1.1.0"
+version: "1.1.1"
 slug: streammaster
 description: "Custom addon to run StreamMaster"
 url: "https://github.com/fbradyirl/streammaster-addon/tree/main/streammaster"
