@@ -23,13 +23,6 @@ ENV DOTNET_GCTotalMemoryThreshold=700000000
 # disabling server-mode GC, which allocates more memory for parallel collections:
 ENV DOTNET_gcServer=false
 
-USER root
-
-RUN apt-get update && \
-    apt-get install -y procps curl htop less && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
-
 # Set labels
 LABEL maintainer="fbradyirl@github.com"
 
