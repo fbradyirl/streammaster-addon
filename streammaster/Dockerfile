@@ -15,7 +15,7 @@ ENV PGADMIN_SETUP_EMAIL=disabled
 ENV PGADMIN_SETUP_PASSWORD=disabled
 
 # This sets a hard heap limit on the .NET GC
-ENV DOTNET_GCHeapHardLimit=734003200  # 700 MB
+ENV DOTNET_GCHeapHardLimit=734003200
 
 # This tells .NET to self-limit based on system memory and GC load.
 ENV DOTNET_GCHeapHardLimitPercent=25
