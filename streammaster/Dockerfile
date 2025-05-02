@@ -14,8 +14,14 @@ ENV STREAMMASTER_BASEHOSTURL=http://0.0.0.0:7095
 ENV PGADMIN_SETUP_EMAIL=disabled
 ENV PGADMIN_SETUP_PASSWORD=disabled
 
-# This sets a hard heap limit on the .NET GC to ~1GB.
-ENV DOTNET_GCHeapHardLimit=1048576000
+# This sets a hard heap limit on the .NET GC
+ENV DOTNET_GCHeapHardLimit=734003200  # 700 MB
+
+# This tells .NET to self-limit based on system memory and GC load.
+ENV DOTNET_GCHeapHardLimitPercent=25
+ENV DOTNET_GCTotalMemoryThreshold=700000000
+# disabling server-mode GC, which allocates more memory for parallel collections:
+ENV DOTNET_gcServer=false
 
 USER root
 
