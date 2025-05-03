@@ -11,19 +11,6 @@ ENV POSTGRES_IS_LOCAL=0
 # ENV STREAMMASTER_BASEHOSTURL=http://0.0.0.0:7095
 # ENV STREAMMASTER_BASEHOSTURL=http://0.0.0.0:7095/api/hassio_ingress/e517628b_streammaster
 
-# That should short-circuit any PGAdmin creation logic that expects working credentials.
-ENV PGADMIN_SETUP_EMAIL=disabled
-ENV PGADMIN_SETUP_PASSWORD=disabled
-
-# This sets a hard heap limit on the .NET GC
-ENV DOTNET_GCHeapHardLimit=734003200
-
-# This tells .NET to self-limit based on system memory and GC load.
-ENV DOTNET_GCHeapHardLimitPercent=25
-ENV DOTNET_GCTotalMemoryThreshold=700000000
-# disabling server-mode GC, which allocates more memory for parallel collections:
-ENV DOTNET_gcServer=false
-
 # Set labels
 LABEL maintainer="fbradyirl@github.com"
 
