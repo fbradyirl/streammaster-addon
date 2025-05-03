@@ -1,6 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
 
+## 1.1.7
+
+- Trying my own sm image.
+
 ## 1.1.6
 
 - Potential fix for ingress issue as part of [pr-116][pr-116].
