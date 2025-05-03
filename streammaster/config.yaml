@@ -1,7 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: StreamMaster add-on
-version: "1.1.7"
+version: "1.1.8
 slug: streammaster
+environment:
+  PATH_BASE: "/api/hassio_ingress/e517628b_streammaster"
 description: "Custom addon to run StreamMaster"
 url: "https://github.com/fbradyirl/streammaster-addon/tree/main/streammaster"
 ingress: true
