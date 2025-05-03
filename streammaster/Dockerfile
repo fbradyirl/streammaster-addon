@@ -8,7 +8,7 @@ ENV POSTGRES_DB="postgres"
 ENV POSTGRES_USER="postgres"
 ENV POSTGRES_PASSWORD="homeassistant"
 ENV POSTGRES_IS_LOCAL=0
-ENV STREAMMASTER_BASEHOSTURL=http://0.0.0.0:7095
+ENV STREAMMASTER_BASEHOSTURL=http://0.0.0.0:7095/api/hassio_ingress/e517628b_streammaster
 
 # That should short-circuit any PGAdmin creation logic that expects working credentials.
 ENV PGADMIN_SETUP_EMAIL=disabled
