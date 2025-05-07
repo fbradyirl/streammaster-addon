@@ -12,7 +12,7 @@ panel_title: StreamMaster
 host_network: true
 arch:
   - aarch64
-  - amd64
+  # - amd64
 init: false
 map:
   - type: addons
