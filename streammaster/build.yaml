@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 build_from:
-  aarch64: "finbarrbrady/streammaster:configHardcodeFix_24"
+  aarch64: "finbarrbrady/streammaster:configHardcodeFix_25"
   #amd64: "finbarrbrady/streammaster:configHardcodeFix_11"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: Streammaster add-on"
