@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: StreamMaster add-on
-version: "1.2.0.35"
+version: "1.2.0.37"
 slug: streammaster
 description: "Custom addon to run StreamMaster"
 url: "https://github.com/fbradyirl/streammaster-addon/tree/main/streammaster"
@@ -33,3 +33,5 @@ map:
 options: {}
 schema: {}
 image: "ghcr.io/fbradyirl/{arch}-streammaster-addon"
+# …with a build: key pointing at your build.yaml
+#build: build.yaml

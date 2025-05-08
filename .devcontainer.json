@@ -2,7 +2,7 @@
   "name": "Example devcontainer for add-on repositories",
   "image": "ghcr.io/home-assistant/devcontainer:2-addons",
   "appPort": ["7123:8123", "7357:4357"],
-  "postStartCommand": "sudo apt update && sudo apt install -y ffmpeg libpcap-dev python3 python3-venv && source .venv/bin/activate && pip install --upgrade homeassistant josepy==1.13.0 acme hass-nabucasa && bash devcontainer_bootstrap",
+  "postStartCommand": "bash devcontainer_bootstrap",
   "runArgs": ["-e", "GIT_EDITOR=code --wait", "--privileged"],
   "containerEnv": {
     "WORKSPACE_DIRECTORY": "${containerWorkspaceFolder}"
